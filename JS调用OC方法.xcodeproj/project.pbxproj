@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7FC4A591F0F49E000F293F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FC4A581F0F49E000F293F2 /* main.m */; };
+		B7FC4A5C1F0F49E100F293F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FC4A5B1F0F49E100F293F2 /* AppDelegate.m */; };
+		B7FC4A5F1F0F49E100F293F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FC4A5E1F0F49E100F293F2 /* ViewController.m */; };
+		B7FC4A621F0F49E100F293F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FC4A601F0F49E100F293F2 /* Main.storyboard */; };
+		B7FC4A641F0F49E100F293F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FC4A631F0F49E100F293F2 /* Assets.xcassets */; };
+		B7FC4A671F0F49E100F293F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FC4A651F0F49E100F293F2 /* LaunchScreen.storyboard */; };
+		B7FC4A6F1F0F510000F293F2 /* time.html in Resources */ = {isa = PBXBuildFile; fileRef = B7FC4A6E1F0F510000F293F2 /* time.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7FC4A541F0F49E000F293F2 /* JS调用OC方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS调用OC方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FC4A581F0F49E000F293F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7FC4A5A1F0F49E100F293F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7FC4A5B1F0F49E100F293F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7FC4A5D1F0F49E100F293F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7FC4A5E1F0F49E100F293F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7FC4A611F0F49E100F293F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7FC4A631F0F49E100F293F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7FC4A661F0F49E100F293F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7FC4A681F0F49E100F293F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FC4A6E1F0F510000F293F2 /* time.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = time.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7FC4A511F0F49E000F293F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7FC4A4B1F0F49E000F293F2 = {
+			isa = PBXGroup;
+			children = (
+				B7FC4A561F0F49E000F293F2 /* JS调用OC方法 */,
+				B7FC4A551F0F49E000F293F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7FC4A551F0F49E000F293F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC4A541F0F49E000F293F2 /* JS调用OC方法.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7FC4A561F0F49E000F293F2 /* JS调用OC方法 */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC4A5A1F0F49E100F293F2 /* AppDelegate.h */,
+				B7FC4A5B1F0F49E100F293F2 /* AppDelegate.m */,
+				B7FC4A5D1F0F49E100F293F2 /* ViewController.h */,
+				B7FC4A5E1F0F49E100F293F2 /* ViewController.m */,
+				B7FC4A6E1F0F510000F293F2 /* time.html */,
+				B7FC4A601F0F49E100F293F2 /* Main.storyboard */,
+				B7FC4A631F0F49E100F293F2 /* Assets.xcassets */,
+				B7FC4A651F0F49E100F293F2 /* LaunchScreen.storyboard */,
+				B7FC4A681F0F49E100F293F2 /* Info.plist */,
+				B7FC4A571F0F49E000F293F2 /* Supporting Files */,
+			);
+			path = "JS调用OC方法";
+			sourceTree = "<group>";
+		};
+		B7FC4A571F0F49E000F293F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC4A581F0F49E000F293F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7FC4A531F0F49E000F293F2 /* JS调用OC方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FC4A6B1F0F49E100F293F2 /* Build configuration list for PBXNativeTarget "JS调用OC方法" */;
+			buildPhases = (
+				B7FC4A501F0F49E000F293F2 /* Sources */,
+				B7FC4A511F0F49E000F293F2 /* Frameworks */,
+				B7FC4A521F0F49E000F293F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JS调用OC方法";
+			productName = "JS调用OC方法";
+			productReference = B7FC4A541F0F49E000F293F2 /* JS调用OC方法.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7FC4A4C1F0F49E000F293F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liyongjie;
+				TargetAttributes = {
+					B7FC4A531F0F49E000F293F2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B7FC4A4F1F0F49E000F293F2 /* Build configuration list for PBXProject "JS调用OC方法" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7FC4A4B1F0F49E000F293F2;
+			productRefGroup = B7FC4A551F0F49E000F293F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7FC4A531F0F49E000F293F2 /* JS调用OC方法 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7FC4A521F0F49E000F293F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FC4A671F0F49E100F293F2 /* LaunchScreen.storyboard in Resources */,
+				B7FC4A641F0F49E100F293F2 /* Assets.xcassets in Resources */,
+				B7FC4A621F0F49E100F293F2 /* Main.storyboard in Resources */,
+				B7FC4A6F1F0F510000F293F2 /* time.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7FC4A501F0F49E000F293F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FC4A5F1F0F49E100F293F2 /* ViewController.m in Sources */,
+				B7FC4A5C1F0F49E100F293F2 /* AppDelegate.m in Sources */,
+				B7FC4A591F0F49E000F293F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7FC4A601F0F49E100F293F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7FC4A611F0F49E100F293F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7FC4A651F0F49E100F293F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7FC4A661F0F49E100F293F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7FC4A691F0F49E100F293F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7FC4A6A1F0F49E100F293F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7FC4A6C1F0F49E100F293F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "JS调用OC方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyjpost.JS--OC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		B7FC4A6D1F0F49E100F293F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "JS调用OC方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyjpost.JS--OC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7FC4A4F1F0F49E000F293F2 /* Build configuration list for PBXProject "JS调用OC方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FC4A691F0F49E100F293F2 /* Debug */,
+				B7FC4A6A1F0F49E100F293F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FC4A6B1F0F49E100F293F2 /* Build configuration list for PBXNativeTarget "JS调用OC方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FC4A6C1F0F49E100F293F2 /* Debug */,
+				B7FC4A6D1F0F49E100F293F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7FC4A4C1F0F49E000F293F2 /* Project object */;
+}

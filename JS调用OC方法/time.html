@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+ 
+        <table>
+            
+            <tr>
+                <td width:"100" height="100"><input type="button" onClick="clickButton()" value="show time"/></td>
+            </tr>
+        </table>
+        
+        <script>
+            function clickButton(){
+                window.webkit.messageHandlers.StartGame.postMessage("123")
+            }
+        </script>
+
+ 
+    </body>
+</html>
